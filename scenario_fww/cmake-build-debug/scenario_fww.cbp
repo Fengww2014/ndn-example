@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="scenario_fww"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scenario_fww">
+				<Option output="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/scenario_fww" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ndn/Documents/ndnSIM/scenario_fww/extensions"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 scenario_fww"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scenario_fww/fast">
+				<Option output="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/scenario_fww" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ndn/Documents/ndnSIM/scenario_fww/extensions"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 scenario_fww/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ndn/Documents/ndnSIM/scenario_fww/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/custom-app.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/custom-app.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/hijacker.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/hijacker.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-app.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-consumer-cbr.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-consumer-cbr.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-consumer.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-producer-fww.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/extensions/ndn-producer-fww.hpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/scenarios/custom-apps.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/scenarios/ndn-simple-custom.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/scenarios/ndn-simple-with-pcap.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/scenarios/ndn-simple.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/scenarios/ndn-v2v-simple.cpp">
+			<Option target="scenario_fww"/>
+		</Unit>
+		<Unit filename="/home/ndn/Documents/ndnSIM/scenario_fww/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
